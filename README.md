@@ -6,7 +6,7 @@ This repository is the **public home** of the project. Implementation is kept pr
 
 ## Contents
 
-- [**Bot policy**](docs/bot-policy.md) — operating principles of our crawler, rate limits, `robots.txt` handling, contact
+- [**Crawler policy**](docs/crawler-policy.md) — operating principles of our crawler, rate limits, `robots.txt` handling, contact
 
 ## Contact
 
