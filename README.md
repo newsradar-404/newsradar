@@ -1,6 +1,6 @@
 # NewsRadar
 
-**NewsRadar** is an automated editorial monitor for press coverage. A polite, rate-limited crawler collects public metadata from a curated list of news outlets; AI is applied on this metadata for editorial framing analysis. The operational dashboard is private.
+**NewsRadar** is an automated editorial monitor for press coverage. A polite, rate-limited **crawler** collects public metadata from a curated list of news outlets; AI is applied on this metadata for editorial framing analysis. The operational dashboard is private.
 
 This repository is the **public home** of the project. Implementation is kept private.
 
