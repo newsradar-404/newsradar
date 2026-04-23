@@ -72,10 +72,24 @@ User-agent: *              Allow: /
 
 ## Status per source (April 2026)
 
+> Note: outlet `robots.txt` policies change frequently. The data below reflects our last review; verify directly at `<outlet>/robots.txt` for the current state.
+
+### United States (reference — not in active crawl scope)
+
+| Outlet | Explicit UA in robots? | Our posture |
+|---|---|---|
+| The New York Times | blocks `GPTBot`, `ClaudeBot`, `anthropic-ai`, `Google-Extended`, `CCBot`; tight `*` rules | reviewed — would not crawl without explicit permission |
+| The Washington Post | blocks `GPTBot`, `ClaudeBot`, `anthropic-ai`; `*` allowed for most paths | reviewed — not in scope |
+| CNN | blocks `GPTBot`, `CCBot`; `Googlebot` allowed | reviewed — not in scope |
+| AP News | licensing agreement with OpenAI (Jul 2023); `GPTBot` allowed; other AI bots blocked | reviewed — not in scope |
+| NPR | blocks `GPTBot`, `ClaudeBot` | reviewed — not in scope |
+
+### Brazil (active crawl scope)
+
 | Outlet | Explicit UA in robots? | Our posture |
 |---|---|---|
 | G1 | to verify | operating — review robots |
-| UOL | blocks nominal AI bots (ClaudeBot, GPTBot, etc.); `*` Allow | operating — our UA passes |
+| UOL | blocks nominal AI bots (`ClaudeBot`, `GPTBot`, etc.); `*` Allow | operating — our UA passes |
 | Metrópoles | to verify | operating |
 | Folha de S.Paulo | blocks nominal AI bots; `Googlebot-News` Allow; `*` not blocked | operating — our UA passes |
 | Gazeta do Povo | to verify | pending |
