@@ -2,7 +2,7 @@
 
 **User-Agent:** `NewsRadarCrawler/0.1-alpha`
 
-**Project:** https://github.com/newsradar-404/newsradar
+**Project:** https://github.com/newsradar-llc/newsradar
 **Contact:** newsradar-ops@pm.me
 
 ## What we do
